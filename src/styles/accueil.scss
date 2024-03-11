@@ -1,5 +1,5 @@
 .proj {
-  width: 1496;
+  width: auto;
 }
 // TRANSITION ACTUALISATION PAGE
 .fade-in {
@@ -401,39 +401,11 @@
 
 // Ajout de media queries pour rendre le site réactif
 
-@media only screen and (max-width: 768px) {
-  // Pour les écrans de taille inférieure à 768px (typiquement pour les tablettes et les smartphones)
-
+@media only screen and (min-width: 1024px) and (max-width: 1496px) {
+  html,
+  .proj, 
   .accueil {
-    .content {
-      flex-direction: column; // Afficher le contenu en colonne sur les écrans plus petits
-      align-items: center; // Centrer les éléments horizontalement
-    }
-
-    .text {
-      margin-right: 0; // Aucune marge sur le côté droit
-      text-align: center; // Centrer le texte
-    }
-
-    .portrait {
-      margin-right: 0; // Aucune marge sur le côté droit
-    }
-  }
-
-  .footer-menu {
-    width: 100%; // La largeur de 100% pour s'adapter à la largeur de l'écran
-    margin-left: 0; // Aucune marge à gauche
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  // Pour les écrans de taille inférieure à 480px (typiquement pour les smartphones)
-
-  .accueil .portrait {
-    max-width: 80%; // Réduire la largeur de l'image du portrait pour s'adapter à des écrans plus petits
-  }
-
-  .footer-menu {
-    width: 100%; // La largeur de 100% pour s'adapter à la largeur de l'écran
+    background-color: blue;
+    width: auto;
   }
 }
