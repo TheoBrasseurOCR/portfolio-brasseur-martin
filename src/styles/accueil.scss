@@ -400,6 +400,10 @@
 }
 
 @media screen and (max-width: 767px) {
+
+  .proj {
+    width: auto;
+  }
   .footer-menu {
     width: 100%; /* La largeur totale de l'écran */
     margin-left: 0; /* Réinitialiser la marge */
