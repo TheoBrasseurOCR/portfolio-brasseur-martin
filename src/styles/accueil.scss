@@ -398,3 +398,20 @@
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer-menu {
+    width: 100%; /* La largeur totale de l'écran */
+    margin-left: 0; /* Réinitialiser la marge */
+    position: static; /* Position statique pour le flux normal sur les petits écrans */
+  }
+
+  .footer-menu ul {
+    justify-content: center; /* Centrer les éléments */
+    padding-left: 0; /* Réinitialiser le décalage à gauche */
+  }
+
+  .footer-menu ul li {
+    margin: 0.3rem; /* Réduire l'espace entre les éléments pour les petits écrans */
+  }
+}
