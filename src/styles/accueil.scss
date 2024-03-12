@@ -567,6 +567,10 @@
       margin-top: 3rem;
       display: flex;
 
+      .nt {
+        display: none;
+      }
+
       ul {
         list-style: none;
         padding: 0;
