@@ -83,7 +83,6 @@ const Accueil = () => {
             qu'à apporter ma contribution au sein de votre prestigieuse maison.
             <br />
             <br />
-            ____________________________________________________
           </p>
         </div>
       </div>
@@ -152,7 +151,6 @@ const Accueil = () => {
               la communauté étudiante de NEOMA Business School.
               <br />
               <br />
-              ______________________________________________________________
             </p>
           </div>
           <h2 id="acces" className="mon-parcours-deux">
