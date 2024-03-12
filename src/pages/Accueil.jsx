@@ -98,7 +98,8 @@ const Accueil = () => {
               <br />
               <span className="dl">
                 <a href={cv} download="cv-brasseur-martin.pdf">
-                  Télécharger mon CV <FontAwesomeIcon icon={faDownload} className="butdl" />
+                  Télécharger mon CV{" "}
+                  <FontAwesomeIcon icon={faDownload} className="butdl" />
                 </a>
               </span>
             </p>

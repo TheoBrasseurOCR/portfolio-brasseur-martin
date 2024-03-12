@@ -1,9 +1,10 @@
-
+@import './variables.scss';
 .proj {
   width: auto;
   background-color: $bg-color;
 }
-.accueil, .content {
+.accueil,
+.content {
   background-color: $bg-color;
 }
 // TRANSITION ACTUALISATION PAGE
@@ -80,34 +81,34 @@
     margin-left: 0rem;
     padding-bottom: 7rem;
     display: flex;
-  
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex; /* Utilise Flexbox pour aligner les liens */
-    justify-content: space-around; /* Aligne les liens avec un espace égal entre eux */
-    font-family: 'title2';
-    font-size: 14px;
-  
-  
-  li {
-    display: block;
-  
-  
-  a {
-    display: block;
-    color: #333; /* Couleur du texte */
-    text-decoration: none;
-    padding: 10px 35px; /* Espacement à l'intérieur des liens */
-  
-  
-  &:hover {
-    color: $grey-color;
-    font-style: italic;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex; /* Utilise Flexbox pour aligner les liens */
+      justify-content: space-around; /* Aligne les liens avec un espace égal entre eux */
+      font-family: "title2";
+      font-size: 14px;
+
+      li {
+        display: block;
+
+        a {
+          display: block;
+          color: #333; /* Couleur du texte */
+          text-decoration: none;
+          padding: 10px 35px; /* Espacement à l'intérieur des liens */
+
+          &:hover {
+            color: $grey-color;
+            font-style: italic;
+          }
+        }
+      }
+    }
   }
-  }}}}}
+}
 // PAGE PRESENTATION
 .suite {
   .presentation {
@@ -332,24 +333,24 @@
 
     .carousel-container {
       display: flex;
-      justify-content: center; 
-      align-items: center; 
-      height: 300px; 
+      justify-content: center;
+      align-items: center;
+      height: 300px;
     }
 
     .carousel {
       position: relative;
-      display: flex; 
-      justify-content: center; 
-      align-items: center; 
-      width: 300px; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
     }
 
     .carousel-item {
-      object-fit: cover; 
-      object-position: center; 
-      max-width: 100%; 
-      max-height: 100%; 
+      object-fit: cover;
+      object-position: center;
+      max-width: 100%;
+      max-height: 100%;
     }
   }
 }
@@ -438,13 +439,11 @@
   }
 }
 
-
-
 // Ajout de media queries pour rendre le site réactif
 
 @media only screen and (min-width: 1600px) {
   html,
-  .proj, 
+  .proj,
   .accueil {
     width: auto;
   }
@@ -457,84 +456,84 @@
       margin-left: 2rem;
       margin-top: 8rem;
       display: flex;
-    
-  
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex; /* Utilise Flexbox pour aligner les liens */
-      justify-content: flex-start; /* Aligne les liens avec un espace égal entre eux */
-      font-family: 'title2';
-      font-size: 14px;
-    
-  
-    li {
-      display: block;
-    
-  
-    a {
-      display: block;
-      color: #333; /* Couleur du texte */
-      text-decoration: none;
-      padding: 10px 10px; /* Espacement à l'intérieur des liens */
-    
-  
-    &:hover {
-      color: $grey-color;
-      font-style: italic;
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex; /* Utilise Flexbox pour aligner les liens */
+        justify-content: flex-start; /* Aligne les liens avec un espace égal entre eux */
+        font-family: "title2";
+        font-size: 14px;
+
+        li {
+          display: block;
+
+          a {
+            display: block;
+            color: #333; /* Couleur du texte */
+            text-decoration: none;
+            padding: 10px 10px; /* Espacement à l'intérieur des liens */
+
+            &:hover {
+              color: $grey-color;
+              font-style: italic;
+            }
+          }
+        }
+      }
     }
-  }}}}}
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1260px) {
   html,
-  .proj, 
+  .proj,
   .accueil {
     width: auto;
   }
 
   .accueil {
-  .footer-menu {
-    position: inherit; /* Position absolue par rapport à l'accueil */
-    bottom: 0;
-    left: 0;
-    width: 80%; /* Ajustez la largeur selon vos préférences */
-    margin-left: 2rem;
-    margin-top: 3rem;
-    display: flex;
-  
+    .footer-menu {
+      position: inherit; /* Position absolue par rapport à l'accueil */
+      bottom: 0;
+      left: 0;
+      width: 80%; /* Ajustez la largeur selon vos préférences */
+      margin-left: 2rem;
+      margin-top: 3rem;
+      display: flex;
 
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex; /* Utilise Flexbox pour aligner les liens */
-    justify-content: flex-start; /* Aligne les liens avec un espace égal entre eux */
-    font-family: 'title2';
-    font-size: 14px;
-  
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex; /* Utilise Flexbox pour aligner les liens */
+        justify-content: flex-start; /* Aligne les liens avec un espace égal entre eux */
+        font-family: "title2";
+        font-size: 14px;
 
-  li {
-    display: block;
-  
+        li {
+          display: block;
 
-  a {
-    display: block;
-    color: #333; /* Couleur du texte */
-    text-decoration: none;
-    padding: 10px 10px; /* Espacement à l'intérieur des liens */
-  
+          a {
+            display: block;
+            color: #333; /* Couleur du texte */
+            text-decoration: none;
+            padding: 10px 10px; /* Espacement à l'intérieur des liens */
 
-  &:hover {
-    color: $grey-color;
-    font-style: italic;
+            &:hover {
+              color: $grey-color;
+              font-style: italic;
+            }
+          }
+        }
+      }
+    }
   }
-}}}}}
-.portrait {
-  width: 70%;
-  height: auto;
-}
+  .portrait {
+    width: 70%;
+    height: auto;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -550,247 +549,243 @@
     display: none;
   }
 
-
   html,
-  .proj, 
+  .proj,
   .accueil {
     width: auto;
   }
   .accueil {
     .footer-menu {
-      margin-top: 2rem;}
-        .footer-menu {
-          position: inherit; /* Position absolue par rapport à l'accueil */
-          bottom: 0;
-          left: 0;
-          width: 80%; /* Ajustez la largeur selon vos préférences */
-          margin-left: 2rem;
-          margin-top: 3rem;
-          display: flex;
-        
-      
-        ul {
-          list-style: none;
-          padding: 0;
-          margin: 0;
-          display: flex; /* Utilise Flexbox pour aligner les liens */
-          justify-content: flex-start; /* Aligne les liens avec un espace égal entre eux */
-          font-family: 'title2';
-          font-size: 14px;
-        
-      
+      margin-top: 2rem;
+    }
+    .footer-menu {
+      position: inherit; /* Position absolue par rapport à l'accueil */
+      bottom: 0;
+      left: 0;
+      width: 80%; /* Ajustez la largeur selon vos préférences */
+      margin-left: 2rem;
+      margin-top: 3rem;
+      display: flex;
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex; /* Utilise Flexbox pour aligner les liens */
+        justify-content: flex-start; /* Aligne les liens avec un espace égal entre eux */
+        font-family: "title2";
+        font-size: 14px;
+
         li {
           display: block;
-        
-      
-        a {
-          display: block;
-          color: #333; /* Couleur du texte */
-          text-decoration: none;
-          padding: 10px 10px; /* Espacement à l'intérieur des liens */
-        
-      
-        &:hover {
-          color: $grey-color;
-          font-style: italic;
+
+          a {
+            display: block;
+            color: #333; /* Couleur du texte */
+            text-decoration: none;
+            padding: 10px 10px; /* Espacement à l'intérieur des liens */
+
+            &:hover {
+              color: $grey-color;
+              font-style: italic;
+            }
+          }
         }
-      }}}}}
+      }
+    }
+  }
 
+  .portrait {
+    display: none;
+  }
+  .image-logo {
+    display: none;
+  }
+  .suite {
+    .boxprez {
+      display: flex;
+      width: auto;
 
-      
-  
-.portrait {
-  display: none;
-}
-.image-logo {
-  display: none;
-}
-.suite {
-  .boxprez {
+      .prez {
+        justify-content: flex-end;
+        font-family: "title2";
+        width: 100%;
+        text-align: right;
+        font-size: 20px;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        padding-bottom: 5rem;
+        color: #333;
+      }
+    }
+  }
+  .texte-logo-deux {
     display: flex;
-    width: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 2rem;
+    height: 20%;
 
-    .prez {
-      justify-content: flex-end;
-      font-family: "title2";
+    .logo-deux {
       width: 100%;
-      text-align: right;
-      font-size: 20px;
-      margin-right: 2rem;
-      margin-left: 2rem;
-      padding-bottom: 5rem;
-      color: #333;
-    }}}
+    }
+  }
+  #acces.mon-parcours-deux {
+    padding-top: 0;
+    display: none;
+  }
+  .back-arrow-deux {
+    display: none;
+  }
+
+  .sco-deux {
+    display: none;
+  }
+
+  .scosuite-deux {
+    display: none;
+  }
+
+  .prez-deux {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html,
+  .proj,
+  .accueil {
+    width: auto;
+  }
+  .image-logo,
+  .logo {
+    display: none;
+  }
+  .befanim,
+  .suitedeux-trois,
+  .carou-cont,
+  .carousel-container,
+  .carousel-item {
+    display: none;
+  }
+  .portrait {
+    display: none;
+  }
+  #presentation,
+  #mon-parcours,
+  #contact {
+    font-size: 30px;
+  }
+  .accueil {
+    .footer-menu {
+      display: none;
+    }
+    .text {
+      flex: 1;
+      margin-right: 20px;
+
+      h1 {
+        color: #333;
+        margin-bottom: 0px;
+        font-family: "title";
+        font-weight: 500;
+        font-size: 40px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        line-height: 0.85;
+      }
+
+      h2 {
+        color: #333;
+        margin-bottom: 5px;
+        font-family: "title";
+        font-weight: 100;
+        font-size: 65px;
+        margin-left: 2rem;
+        font-size: 30px;
+      }
+    }
+  }
+
+  .suite {
+    .boxprez {
+      display: flex;
+      width: auto;
+
+      .prez {
+        justify-content: flex-end;
+        font-family: "title2";
+        width: 100%;
+        text-align: right;
+        font-size: 20px;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        padding-bottom: 5rem;
+        color: #333;
+      }
+    }
+  }
+  .suite-deux {
     .texte-logo-deux {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
       width: 100%;
-      padding-top: 2rem;
+      padding-top: 7rem;
       height: 20%;
 
       .logo-deux {
-        width: 100%;    
+        width: 100%;
+        height: 20%;
       }
     }
-    #acces.mon-parcours-deux {
-      padding-top: 0;
-      display: none;
-    }
-    .back-arrow-deux {
-      display: none;
-    }
+  }
+  #acces.mon-parcours-deux {
+    padding-top: 0;
+    display: none;
+  }
+  .back-arrow-deux {
+    display: none;
+  }
 
-    .sco-deux {
-      display: none;
-    }
+  .sco-deux {
+    display: none;
+  }
 
-    .scosuite-deux {
-      display: none;
-    }
+  .scosuite-deux {
+    display: none;
+  }
 
-    .prez-deux {
-      display: none;
-    }
+  .prez-deux {
+    display: none;
+  }
+  .prez-trois,
+  .prez-trois-ad,
+  .ml-container,
+  .ml {
+    display: none;
+  }
+  .suitedeux .parcours h2 .sco {
+    font-size: 25px;
+  }
+  .butdl {
+    display: none;
+  }
+  .suitedeux .parcours h2 .prez {
+    font-family: "title2";
+    width: 100%;
+    font-size: 20px;
+    padding: 20;
+    margin-bottom: 1rem;
+  }
 }
-
-@media only screen and (max-width: 767px) {
-
-  html,
-  .proj, 
-  .accueil {
-    width: auto;
-  }
-  .image-logo,
-  .logo {
-    display: none;
-  }
-  .befanim,
-  .suitedeux-trois,
-  .carou-cont,
-  .carousel-container,
-  .carousel-item {
-    display: none;
-  }
-  .portrait {
-    display: none;
-  }
-  #presentation,
-  #mon-parcours,
-  #contact {
-    font-size: 30px;
-  }
-  .accueil {
-    .footer-menu {
-      display: none;
-    }
-    .text {
-      flex: 1;
-      margin-right: 20px;
-  
-      h1 {
-        color: #333;
-        margin-bottom: 0px;
-        font-family: "title";
-        font-weight: 500;
-        font-size: 40px;
-        margin-left: 2rem;
-        margin-top: 2rem;
-        line-height: 0.85;
-      }
-  
-      h2 {
-        color: #333;
-        margin-bottom: 5px;
-        font-family: "title";
-        font-weight: 100;
-        font-size: 65px;
-        margin-left: 2rem;
-        font-size: 30px;
-      }
-    }}
-
-
-
-    .suite {
-      .boxprez {
-        display: flex;
-        width: auto;
-    
-        .prez {
-          justify-content: flex-end;
-          font-family: "title2";
-          width: 100%;
-          text-align: right;
-          font-size: 20px;
-          margin-right: 2rem;
-          margin-left: 2rem;
-          padding-bottom: 5rem;
-          color: #333;
-        }}}
-        .suite-deux {
-        .texte-logo-deux {
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          width: 100%;
-          padding-top: 7rem;
-          height: 20%;
-    
-          .logo-deux {
-            width: 100%;    
-            height: 20%;
-          }
-
-
-        }}
-        #acces.mon-parcours-deux {
-          padding-top: 0;
-          display: none;
-        }
-        .back-arrow-deux {
-          display: none;
-        }
-    
-        .sco-deux {
-          display: none;
-        }
-    
-        .scosuite-deux {
-          display: none;
-        }
-    
-        .prez-deux {
-          display: none;
-        }
-        .prez-trois,
-        .prez-trois-ad,
-        .ml-container,
-        .ml {
-          display: none;
-        }
-        .suitedeux .parcours h2 .sco {
-          font-size: 25px;}
-          .butdl{
-            display: none;
-          }
-          .suitedeux .parcours h2 .prez {
-            font-family: "title2";
-            width: 100%;
-            font-size: 20px;
-            padding: 20;
-            margin-bottom: 1rem;
-          }
-        
-}
-
 
 @media only screen and (max-width: 320px) {
-
   html,
-  .proj, 
+  .proj,
   .accueil {
     width: auto;
   }
@@ -820,7 +815,7 @@
     .text {
       flex: 1;
       margin-right: 20px;
-  
+
       h1 {
         color: #333;
         margin-bottom: 0px;
@@ -831,7 +826,7 @@
         margin-top: 2rem;
         line-height: 0.85;
       }
-  
+
       h2 {
         color: #333;
         margin-bottom: 5px;
@@ -841,83 +836,76 @@
         margin-left: 2rem;
         font-size: 30px;
       }
-    }}
+    }
+  }
 
+  .suite {
+    .boxprez {
+      display: flex;
+      width: auto;
 
+      .prez {
+        justify-content: flex-end;
+        font-family: "title2";
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        padding-bottom: 5rem;
+        color: #333;
+      }
+    }
+  }
+  .suite-deux {
+    .texte-logo-deux {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding-top: 7rem;
+      height: 20%;
 
+      .logo-deux {
+        width: 100%;
+        height: 20%;
+      }
+    }
+  }
+  #acces.mon-parcours-deux {
+    padding-top: 0;
+    display: none;
+  }
+  .back-arrow-deux {
+    display: none;
+  }
 
-    .suite {
-      .boxprez {
-        display: flex;
-        width: auto;
-    
-        .prez {
-          justify-content: flex-end;
-          font-family: "title2";
-          width: 100%;
-          text-align: center;
-          font-size: 20px;
-          margin-right: 2rem;
-          margin-left: 2rem;
-          padding-bottom: 5rem;
-          color: #333;
-        }}}
-        .suite-deux {
-        .texte-logo-deux {
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          width: 100%;
-          padding-top: 7rem;
-          height: 20%;
-    
-          .logo-deux {
-            width: 100%;    
-            height: 20%;
-          }
-          
-          
+  .sco-deux {
+    display: none;
+  }
 
+  .scosuite-deux {
+    display: none;
+  }
 
-        }}
-        #acces.mon-parcours-deux {
-          padding-top: 0;
-          display: none;
-        }
-        .back-arrow-deux {
-          display: none;
-        }
-    
-        .sco-deux {
-          display: none;
-        }
-    
-        .scosuite-deux {
-          display: none;
-        }
-    
-        .prez-deux {
-          display: none;
-        }
-        .prez-trois,
-        .prez-trois-ad,
-        .ml-container,
-        .ml {
-          display: none;
-        }
-        .back-arrow {
-          display: none;
-        }
-        .sco {
-          display: none;}
-      
-          ul {
-            display: none;
-          }
+  .prez-deux {
+    display: none;
+  }
+  .prez-trois,
+  .prez-trois-ad,
+  .ml-container,
+  .ml {
+    display: none;
+  }
+  .back-arrow {
+    display: none;
+  }
+  .sco {
+    display: none;
+  }
 
-        
+  ul {
+    display: none;
+  }
 }
-
-
-
