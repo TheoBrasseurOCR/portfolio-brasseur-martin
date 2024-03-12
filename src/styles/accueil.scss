@@ -1,6 +1,4 @@
-html {
 
-}
 .proj {
   width: auto;
   background-color: $bg-color;
@@ -617,7 +615,12 @@ html {
 }
 
 @media only screen and (max-width: 767px) {
-  
+
+  html,
+  .proj, 
+  .accueil {
+    width: auto;
+  }
   .image-logo,
   .logo {
     display: none;
@@ -629,16 +632,46 @@ html {
   .carousel-item {
     display: none;
   }
-  html,
-  .proj, 
-  .accueil {
-    width: auto;
-  }
   .portrait {
     display: none;
   }
-  .footer-menu {
-    display: none;}
+  #presentation,
+  #mon-parcours,
+  #contact {
+    font-size: 30px;
+  }
+  .accueil {
+    .footer-menu {
+      display: none;
+    }
+    .text {
+      flex: 1;
+      margin-right: 20px;
+  
+      h1 {
+        color: #333;
+        margin-bottom: 0px;
+        font-family: "title";
+        font-weight: 500;
+        font-size: 40px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        line-height: 0.85;
+      }
+  
+      h2 {
+        color: #333;
+        margin-bottom: 5px;
+        font-family: "title";
+        font-weight: 100;
+        font-size: 65px;
+        margin-left: 2rem;
+        font-size: 30px;
+      }
+    }}
+
+
+
     .suite {
       .boxprez {
         display: flex;
@@ -669,6 +702,8 @@ html {
             width: 100%;    
             height: 20%;
           }
+
+
         }}
         #acces.mon-parcours-deux {
           padding-top: 0;
@@ -695,4 +730,141 @@ html {
         .ml {
           display: none;
         }
+        
 }
+
+
+@media only screen and (max-width: 424px) {
+
+  html,
+  .proj, 
+  .accueil {
+    width: auto;
+  }
+  .image-logo,
+  .logo {
+    display: none;
+  }
+  .befanim,
+  .suitedeux-trois,
+  .carou-cont,
+  .carousel-container,
+  .carousel-item {
+    display: none;
+  }
+  .portrait {
+    display: none;
+  }
+  #presentation,
+  #mon-parcours,
+  #contact {
+    font-size: 30px;
+  }
+  .accueil {
+    .footer-menu {
+      display: none;
+    }
+    .text {
+      flex: 1;
+      margin-right: 20px;
+  
+      h1 {
+        color: #333;
+        margin-bottom: 0px;
+        font-family: "title";
+        font-weight: 500;
+        font-size: 40px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        line-height: 0.85;
+      }
+  
+      h2 {
+        color: #333;
+        margin-bottom: 5px;
+        font-family: "title";
+        font-weight: 100;
+        font-size: 65px;
+        margin-left: 2rem;
+        font-size: 30px;
+      }
+    }}
+
+
+
+
+    .suite {
+      .boxprez {
+        display: flex;
+        width: auto;
+    
+        .prez {
+          justify-content: flex-end;
+          font-family: "title2";
+          width: 100%;
+          text-align: center;
+          font-size: 20px;
+          margin-right: 2rem;
+          margin-left: 2rem;
+          padding-bottom: 5rem;
+          color: #333;
+        }}}
+        .suite-deux {
+        .texte-logo-deux {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          padding-top: 7rem;
+          height: 20%;
+    
+          .logo-deux {
+            width: 100%;    
+            height: 20%;
+          }
+          
+          
+
+
+        }}
+        #acces.mon-parcours-deux {
+          padding-top: 0;
+          display: none;
+        }
+        .back-arrow-deux {
+          display: none;
+        }
+    
+        .sco-deux {
+          display: none;
+        }
+    
+        .scosuite-deux {
+          display: none;
+        }
+    
+        .prez-deux {
+          display: none;
+        }
+        .prez-trois,
+        .prez-trois-ad,
+        .ml-container,
+        .ml {
+          display: none;
+        }
+        .back-arrow {
+          display: none;
+        }
+        .sco {
+          display: none;}
+      
+          ul {
+            display: none;
+          }
+
+        
+}
+
+
+
