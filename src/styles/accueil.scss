@@ -161,6 +161,7 @@
   .parcours {
     position: relative; /* Ajoutez ceci pour définir le contexte de positionnement */
     padding: 20px;
+    padding-top: 30px;
     display: flex;
     justify-content: flex-start;
 
@@ -536,7 +537,7 @@
 }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .image-logo,
   .logo {
     display: none;
@@ -548,15 +549,55 @@
   .carousel-item {
     display: none;
   }
-  .accueil {
-  .footer-menu {
-    display: none;}}
+
 
   html,
   .proj, 
   .accueil {
     width: auto;
   }
+  .accueil {
+    .footer-menu {
+      margin-top: 2rem;}
+        .footer-menu {
+          position: inherit; /* Position absolue par rapport à l'accueil */
+          bottom: 0;
+          left: 0;
+          width: 80%; /* Ajustez la largeur selon vos préférences */
+          margin-left: 2rem;
+          margin-top: 3rem;
+          display: flex;
+        
+      
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex; /* Utilise Flexbox pour aligner les liens */
+          justify-content: flex-start; /* Aligne les liens avec un espace égal entre eux */
+          font-family: 'title2';
+          font-size: 14px;
+        
+      
+        li {
+          display: block;
+        
+      
+        a {
+          display: block;
+          color: #333; /* Couleur du texte */
+          text-decoration: none;
+          padding: 10px 10px; /* Espacement à l'intérieur des liens */
+        
+      
+        &:hover {
+          color: $grey-color;
+          font-style: italic;
+        }
+      }}}}}
+
+
+      
   
 .portrait {
   display: none;
@@ -730,6 +771,18 @@
         .ml {
           display: none;
         }
+        .suitedeux .parcours h2 .sco {
+          font-size: 25px;}
+          .butdl{
+            display: none;
+          }
+          .suitedeux .parcours h2 .prez {
+            font-family: "title2";
+            width: 100%;
+            font-size: 20px;
+            padding: 20;
+            margin-bottom: 1rem;
+          }
         
 }
 

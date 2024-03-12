@@ -83,6 +83,7 @@ const Accueil = () => {
             qu'à apporter ma contribution au sein de votre prestigieuse maison.
             <br />
             <br />
+            ________________________
           </p>
         </div>
       </div>
@@ -97,7 +98,7 @@ const Accueil = () => {
               <br />
               <span className="dl">
                 <a href={cv} download="cv-brasseur-martin.pdf">
-                  Télécharger mon CV <FontAwesomeIcon icon={faDownload} />
+                  Télécharger mon CV <FontAwesomeIcon icon={faDownload} className="butdl" />
                 </a>
               </span>
             </p>
