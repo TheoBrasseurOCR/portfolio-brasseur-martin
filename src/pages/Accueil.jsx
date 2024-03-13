@@ -75,7 +75,7 @@ const Accueil = () => {
             domaine du champagne.
             <br />
             Mon enthousiasme et ma détermination font de moi un candidat
-            désireux d'explorer chaque facet du métier, du marketing à la
+            désireux d'explorer chaque facette du métier, du marketing à la
             distribution, avec une soif insatiable d'apprentissage.
             <br />
             Déterminé à vous rejoindre dans cette aventure, où innovation et
